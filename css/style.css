@@ -217,9 +217,9 @@ a{
         margin-bottom: 20px;
     }
     .future__text{
-        min-width: 350px;
-        padding: 0;
-        width: 90%;
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 100%;  
     }
     .over{
         width: 100%;
@@ -230,5 +230,11 @@ a{
     }
     .section-column{
         margin-top: 30px;
+    }
+    .table-column{
+        width: 50%;
+    }
+    .section__discription{
+        width: 100%;
     }
 }
